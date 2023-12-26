@@ -1,0 +1,22 @@
+{
+    "name": "RPi Pico HC-SR04",
+    "version": "1.0.0",
+    "description": "Biblioteca para usar sensor ultrasónico HC-SR04 con la Raspberry Pi Pico y su SDK.",
+    "keywords": "rp2040, Raspberry Pi Pico, baremetal, PIO",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/carlassaraf/rpipico-hcsr04.git"
+    },
+    "authors":
+    [
+        {
+            "name": "Fabrizio Carlassara",
+            "email": "fabrizio.carlassara@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "frameworks": ["baremetal"],
+    "platforms": ["WizIO-pico"]
+}
