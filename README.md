@@ -4,7 +4,7 @@ Biblioteca para usar sensor ultrasónico HC-SR04 con la Raspberry Pi Pico y su S
  o puede incluirse en PlatformIO directamente usando el `platformio.ini` agregando la linea:
 
 ```
- lib_deps = https://github.com/carlassaraf/rpipico-hcsr04.git
+lib_deps = https://github.com/carlassaraf/rpipico-hcsr04.git
 ```
 
 ## Uso de la biblioteca
@@ -31,4 +31,6 @@ Esta biblioteca hace inicializacion de los GPIO para hacer uso del sensor por lo
 
 Los ejemplos que hay en el repositorio son:
 
-
+| Ejemplo | Descripcion |
+| --- | --- |
+| [single](examples/single/main.c) | Ejemplo basico con un sensor y mensaje por consola |
